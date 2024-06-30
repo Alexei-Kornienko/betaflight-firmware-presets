@@ -1,0 +1,50 @@
+#$ TITLE: Failsafe defaults
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: failsafe
+#$ AUTHOR: Alexei Kornienko
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Failsafe setup.
+#$ DESCRIPTION: 
+
+# rxfail
+rxfail 0 a
+rxfail 1 a
+rxfail 2 a
+rxfail 3 h
+rxfail 4 h
+rxfail 5 h
+rxfail 6 h
+rxfail 7 h
+rxfail 8 h
+rxfail 9 h
+rxfail 10 h
+rxfail 11 h
+rxfail 12 h
+rxfail 13 h
+rxfail 14 h
+rxfail 15 h
+rxfail 16 h
+rxfail 17 h
+
+# master
+set failsafe_delay = 190
+set failsafe_off_delay = 60
+set failsafe_throttle = 1800
+set failsafe_switch_mode = STAGE1
+set failsafe_throttle_low_delay = 100
+set failsafe_procedure = AUTO-LAND
+set failsafe_recovery_delay = 10
+set failsafe_stick_threshold = 30
+
+set runaway_takeoff_prevention = ON
+set runaway_takeoff_deactivate_delay = 500
+set runaway_takeoff_deactivate_throttle_percent = 20
+set small_angle = 180

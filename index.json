@@ -189,6 +189,7 @@
       "emax",
       "EVO",
       "Extreme",
+      "failsafe",
       "Foxeer",
       "fpv.wtf",
       "freestyle",
@@ -265,7 +266,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/UAV_tech_Analog.txt",
-      "hash": "99adbf8a19f6d196b488b5ffa82b61fb5b5c6805874b31924d9a6fdef3ba1a87",
+      "hash": "817006bd8bca200a5fde836ee22e7804f0ea20b3f15f862107ea5beaab835a35",
       "title": "UAV VTX Analog",
       "firmware_version": [
         "4.3",
@@ -359,6 +360,23 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/tune/failsafe.txt",
+      "hash": "4cb00dd83186b36d1fddf625b424b6f6eedaf629468a77f124768237823bf7a4",
+      "title": "Failsafe defaults",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "failsafe"
+      ],
+      "author": "Alexei Kornienko",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/vtx/AKK_FX2_Dominator_2W.txt",

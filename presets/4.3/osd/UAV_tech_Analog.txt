@@ -11,13 +11,12 @@
 
 #$ DESCRIPTION: Information:
 #$ DESCRIPTION: -----------
-#$ DESCRIPTION: Geneeral analog OSD Setup. Layout was based on **NTSC** so if you need use the **PAL** format you may need to adjust element locations.
+#$ DESCRIPTION: OSD Setup.
 #$ DESCRIPTION: 
 #$ DESCRIPTION: OSD Elements Include:
 #$ DESCRIPTION: -----------
-#$ DESCRIPTION: Vbat, Amps, mAh drawn, Armed Time, Time Remaining, VTX Channel, VTX Power, Uplink Power, RSSI, etc...
+#$ DESCRIPTION: Vbat, Amps, mAh drawn, Armed Time, VTX Channel, VTX Power, Uplink Power, RSSI, etc...
 #$ DESCRIPTION: 
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/211
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_warn_core_temp = OFF
