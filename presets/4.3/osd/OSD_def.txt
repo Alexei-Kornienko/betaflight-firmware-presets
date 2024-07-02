@@ -17,6 +17,7 @@
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
+set vcd_video_system = PAL
 set osd_warn_core_temp = OFF
 set osd_warn_fail_safe = OFF
 set osd_warn_rssi = ON

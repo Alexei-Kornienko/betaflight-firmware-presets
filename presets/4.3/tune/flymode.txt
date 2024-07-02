@@ -36,6 +36,9 @@ aux 17 0 0 900 900 0 0
 aux 18 0 0 900 900 0 0
 aux 19 0 0 900 900 0 0
 
+set vtx_power = 1
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+
 #$ OPTION_GROUP BEGIN: VTX power switching
     #$ OPTION BEGIN (CHECKED): Power levels 1,3,5
         # vtx

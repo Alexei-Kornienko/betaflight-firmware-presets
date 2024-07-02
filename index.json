@@ -270,7 +270,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/OSD_def.txt",
-      "hash": "9f5b51d5c3b04d6c3e30a5e361ae1319af0381ecd5311a5eea37b57d732ac3a1",
+      "hash": "90fc00dc6730eb0b8683f88172c278351678ce2bb4fe518526ad81b9aa4683c2",
       "title": "OSD defaults",
       "firmware_version": [
         "4.3"
@@ -382,7 +382,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/flymode.txt",
-      "hash": "4d63b817a6d79de3b688a27b80525b7fd7d56f3e4efb307026c188152da7358a",
+      "hash": "9d20d80e3d76d19ffbee091aae5899a71f9099322654366cc4a90ee95a538886",
       "title": "Flymode defaults",
       "firmware_version": [
         "4.3",
