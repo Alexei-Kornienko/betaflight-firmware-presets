@@ -139,6 +139,7 @@
       "4.5"
     ],
     "category": [
+      "FILTERS",
       "OSD",
       "RATES",
       "RC_LINK",
@@ -190,6 +191,8 @@
       "EVO",
       "Extreme",
       "failsafe",
+      "filter",
+      "filters",
       "Foxeer",
       "fpv.wtf",
       "freestyle",
@@ -265,13 +268,11 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/osd/UAV_tech_Analog.txt",
-      "hash": "817006bd8bca200a5fde836ee22e7804f0ea20b3f15f862107ea5beaab835a35",
-      "title": "UAV VTX Analog",
+      "fullPath": "presets/4.3/osd/OSD_def.txt",
+      "hash": "9f5b51d5c3b04d6c3e30a5e361ae1319af0381ecd5311a5eea37b57d732ac3a1",
+      "title": "OSD defaults",
       "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
+        "4.3"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -1130,6 +1131,79 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/osd/OSD_def.txt",
+      "hash": "bec4488220bf00ce8504c6b6a4e34c8dd9dfb7dbaa35f5797a351b9178e433bb",
+      "title": "OSD defaults",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog"
+      ],
+      "author": "Alexei Kornienko",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/tune/defaults.txt",
+      "hash": "913b78f0010561a8e935f951493cb4bd7313493a36a48a7b9205a69e1350524f",
+      "title": "Betaflight 4.4 TUNE defaults",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/filters/defaults.txt",
+      "hash": "618e82175f3f63abfcbdd5315e2c17d915f608ac42af22aa1256470f3d2ea5fe",
+      "title": "Default 4.5 Filter settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "filter",
+        "filters",
+        "reset"
+      ],
+      "author": "Betaflight",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/tune/defaults.txt",
+      "hash": "40d749b64f98141dea03e11b77976f0907a7e3b912c2e52c7395715eb570dfdd",
+      "title": "Betaflight 4.5 TUNE defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
     }
   ]
 }
