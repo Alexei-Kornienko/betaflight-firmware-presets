@@ -193,6 +193,7 @@
       "failsafe",
       "filter",
       "filters",
+      "flymode",
       "Foxeer",
       "fpv.wtf",
       "freestyle",
@@ -375,6 +376,23 @@
       "status": "COMMUNITY",
       "keywords": [
         "failsafe"
+      ],
+      "author": "Alexei Kornienko",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/flymode.txt",
+      "hash": "4d63b817a6d79de3b688a27b80525b7fd7d56f3e4efb307026c188152da7358a",
+      "title": "Flymode defaults",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "flymode"
       ],
       "author": "Alexei Kornienko",
       "priority": 1000000000000
