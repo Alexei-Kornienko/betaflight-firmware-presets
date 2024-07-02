@@ -17,6 +17,7 @@
 #$ DESCRIPTION: 
 
 # master
+set vcd_video_system = PAL
 set osd_units = METRIC
 set osd_warn_bitmask = 8191
 set osd_rssi_alarm = 30
