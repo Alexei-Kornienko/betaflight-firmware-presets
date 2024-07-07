@@ -19,6 +19,13 @@ aux 0 0 0 1875 2100 0 0
 aux 1 1 1 900 1200 0 0
 aux 2 0 0 900 900 0 0
 aux 3 0 0 900 900 0 0
+
+#$ OPTION BEGIN (CHECKED): Fuse activation on AUX4
+    # fuse modes
+    aux 2 40 3 1675 2100 0 0
+    aux 3 41 3 1300 2100 0 0
+#$ OPTION END
+
 aux 4 0 0 900 900 0 0
 aux 5 0 0 900 900 0 0
 aux 6 0 0 900 900 0 0
@@ -39,7 +46,7 @@ aux 19 0 0 900 900 0 0
 set vtx_power = 1
 set vtx_low_power_disarm = UNTIL_FIRST_ARM
 
-#$ OPTION_GROUP BEGIN: VTX power switching
+#$ OPTION_GROUP BEGIN: VTX power switching set on AUX3
     #$ OPTION BEGIN (CHECKED): Power levels 1,3,5
         # vtx
         vtx 0 2 0 0 1 900 1200
