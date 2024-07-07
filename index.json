@@ -365,7 +365,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/failsafe.txt",
-      "hash": "4cb00dd83186b36d1fddf625b424b6f6eedaf629468a77f124768237823bf7a4",
+      "hash": "fa8f200864e094e36ad5de91a3d340b99013a830f310285430d572b283a175df",
       "title": "Failsafe defaults",
       "firmware_version": [
         "4.3",
@@ -1152,10 +1152,11 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD_def.txt",
-      "hash": "3a0417e331b00f699beeb05e88209b3d78e33475fa3b5d8ea3bd30b8bef904d9",
+      "hash": "f84b03542ce42459d050916bca5542c755dc535182f3f43214faa27e900a8c97",
       "title": "OSD defaults",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
