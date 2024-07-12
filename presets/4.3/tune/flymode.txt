@@ -73,4 +73,31 @@ set vtx_low_power_disarm = UNTIL_FIRST_ARM
         vtx 8 0 0 0 0 900 900
         vtx 9 0 0 0 0 900 900
     #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Power levels 1,2
+        vtx 0 2 0 0 1 900 1300
+        vtx 1 2 0 0 2 1700 2100
+        vtx 2 0 0 0 0 900 900
+        vtx 3 0 0 0 0 900 900
+        vtx 4 0 0 0 0 900 900
+        vtx 5 0 0 0 0 900 900
+        vtx 6 0 0 0 0 900 900
+        vtx 7 0 0 0 0 900 900
+        vtx 8 0 0 0 0 900 900
+        vtx 9 0 0 0 0 900 900
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Power levels 1,2,3
+        # vtx
+        vtx 0 2 0 0 1 900 1200
+        vtx 1 2 0 0 2 1400 1600
+        vtx 2 2 0 0 3 1800 2100
+        vtx 3 0 0 0 0 900 900
+        vtx 4 0 0 0 0 900 900
+        vtx 5 0 0 0 0 900 900
+        vtx 6 0 0 0 0 900 900
+        vtx 7 0 0 0 0 900 900
+        vtx 8 0 0 0 0 900 900
+        vtx 9 0 0 0 0 900 900
+    #$ OPTION END
+
+
 #$ OPTION_GROUP END
