@@ -20,11 +20,18 @@ aux 1 1 1 900 1200 0 0
 aux 2 0 0 900 900 0 0
 aux 3 0 0 900 900 0 0
 
-#$ OPTION BEGIN (CHECKED): Fuse activation on AUX4
+#$ OPTION_GROUP BEGIN: VTX power switching set on AUX3
+#$ OPTION BEGIN (CHECKED): Fuse activation USER1,2 on AUX4
     # fuse modes
     aux 2 40 3 1675 2100 0 0
     aux 3 41 3 1300 2100 0 0
 #$ OPTION END
+#$ OPTION BEGIN (CHECKED): Fuse activation USER3,4 on AUX4
+    # fuse modes
+    aux 2 42 3 1600 2100 0 0
+    aux 3 43 3 1300 2100 0 0
+#$ OPTION END
+#$ OPTION_GROUP END
 
 aux 4 0 0 900 900 0 0
 aux 5 0 0 900 900 0 0
